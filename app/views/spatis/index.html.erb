@@ -3,7 +3,7 @@
     <ul>
       <% @spatis.each do |spati| %>
         <li>
-          <h1 class="spati-name"><%= link_to spati.name, spati_path(spati) %></h1>
+          <h2 class="spati-name"><%= link_to spati.name, spati_path(spati) %></h2>
           <%= spati.address %><br>
           <%= spati.opening_time %>
         </li>
